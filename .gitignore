@@ -1,0 +1,98 @@
+
+# ==========================================
+# PYTHON
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking and linting
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# ==========================================
+# ENVIRONMENT AND SECRETS
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+secrets/
+credentials/
+
+# ==========================================
+# DATA AND DOCUMENTS
+# ==========================================
+
+data/raw/*
+data/processed/*
+data/evaluation/*
+
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/evaluation/.gitkeep
+
+# ==========================================
+# DATABASES AND VECTOR STORES
+# ==========================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+chroma_db/
+faiss_index/
+vector_store/
+
+# ==========================================
+# APPLICATION STORAGE
+# ==========================================
+
+storage/*
+!storage/.gitkeep
+
+# ==========================================
+# LOGS AND TEMPORARY FILES
+# ==========================================
+
+*.log
+logs/
+tmp/
+temp/
+
+# ==========================================
+# EDITORS AND OPERATING SYSTEM
+# ==========================================
+
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
